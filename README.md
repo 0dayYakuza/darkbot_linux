@@ -9,7 +9,7 @@
 
 **2. on VPS, then:**
 - download PuTTy or any similar app and connect to VPS;
-- create a new user (don't use "root")
+- create a new user (don't use "root");
 - copy-paste this.command and click enter:
 > wget -P Downloads https://github.com/0dayYakuza/darkbot_linux/archive/refs/heads/main.zip && cd Downloads && unzip main.zip && cd darkbot_linux-main && sh install_vps.sh
 - When the installation is completed, close terminal and connect to VPS via Remote Desktop Connection (RDP).
