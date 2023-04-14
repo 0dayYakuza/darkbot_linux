@@ -37,7 +37,7 @@ cd $HOME/Downloads && wget https://host.darkbot.eu/uploads/Tanoshii/darkbot.zip 
 sudo rm -r ~/Downloads/darkbot_linux-main ~/Downloads/main.zip ~/Downloads/darkbot.zip && sudo dnf autoremove -y
 
 elif [ $ID = debian ]; then
-sudo apt update -y && apt upgrade -y && sudo apt install xrdp ufw -y && sudo adduser xrdp ssl-cert
+sudo apt update -y && sudo apt upgrade -y && sudo apt install xrdp ufw -y && sudo adduser xrdp ssl-cert
 sudo apt install cinnamon -y && sudo apt install openjdk-17-jdk openjdk-17-jre -y
 ufw --now enable && ufw allow 3389 && ufw reload && systemctl restart xrdp
 cd $HOME/Downloads && wget https://host.darkbot.eu/uploads/Tanoshii/darkbot.zip && unzip darkbot.zip
