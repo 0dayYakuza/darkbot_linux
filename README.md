@@ -5,13 +5,13 @@
 - create a new user (don't use "root");
 - open terminal;
 - copy-paste this.command and click enter:
-> wget -P Downloads https://github.com/0dayYakuza/darkbot_linux/archive/refs/heads/main.zip && cd Downloads && unzip main.zip && cd darkbot_linux-main && sh install_desktop.sh
+> curl https://raw.githubusercontent.com/0dayYakuza/darkbot_linux/main/install_desktop.sh | bash
 
 **2. on VPS, then:**
 - download PuTTy or any similar app and connect to VPS;
 - create a new user (don't use "root");
 - copy-paste this.command and click enter:
-> wget -P Downloads https://github.com/0dayYakuza/darkbot_linux/archive/refs/heads/main.zip && cd Downloads && unzip main.zip && cd darkbot_linux-main && sh install_vps.sh
+> curl https://raw.githubusercontent.com/0dayYakuza/darkbot_linux/main/install_vps.sh | bash
 - When the installation is completed, close terminal and connect to VPS via Remote Desktop Connection (RDP).
 
 **3. To run darkbot, type command in terminal:**
