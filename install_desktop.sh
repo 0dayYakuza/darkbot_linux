@@ -18,6 +18,10 @@ elif [ $ID = almalinux ] || [ $ID = centos ] || [ $ID = fedora ] || [ $ID = rock
 sudo dnf update -y && sudo dnf upgrade -y && sudo dnf install java-17-openjdk java-17-openjdk-devel -y
 cd $HOME/Downloads && wget https://host.darkbot.eu/uploads/Tanoshii/darkbot.zip && unzip darkbot.zip && rm -r $HOME/Downloads/darkbot.zip
 
+elif [ $ID = arch ] || [ $ID = manjaro ]; then
+sudo pacman -Syu --noconfirm && sudo pacman -Syy --noconfirm && sudo pacman -S --noconfirm wget fuse2 jre17-openjdk 
+cd $HOME/Downloads && wget https://host.darkbot.eu/uploads/Tanoshii/darkbot.zip && unzip darkbot.zip && rm -r $HOME/Downloads/darkbot.zip
+
 else
 echo "Operating system not identified"
 echo "Please contact devs in #linux-chat"

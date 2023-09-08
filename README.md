@@ -46,6 +46,8 @@ Supported distributions:
 - Ubuntu 22.04
 - Linux Mint
 - Debian 11
+- Arch Linux
+- Manjaro OS
 ---
 ### Thanks to Tanoshii#7629.
 ### If you have any question, feel free to ask it in #linux-chat.
