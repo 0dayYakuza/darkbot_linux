@@ -48,6 +48,7 @@ Supported distributions:
 - Debian 11
 - Arch Linux
 - Manjaro OS
+- SteamOS
 ---
 ### Thanks to Tanoshii#7629.
 ### If you have any question, feel free to ask it in #linux-chat.

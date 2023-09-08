@@ -38,7 +38,7 @@ sudo apt install cinnamon -y && sudo apt install openjdk-17-jdk openjdk-17-jre -
 ufw --now enable && ufw allow 3389 && ufw reload && systemctl restart xrdp
 cd $HOME/Downloads && wget https://host.darkbot.eu/uploads/Tanoshii/darkbot.zip && unzip darkbot.zip && rm -r $HOME/Downloads/darkbot.zip
 
-elif [ $ID = arch ] || [ $ID = manjaro ]; then
+elif [ $ID = arch ] || [ $ID = manjaro ] || [ $ID = steamos ]; then
 sudo pacman -Syu --noconfirm && sudo pacman -S --noconfirm xrdp ufw && sudo systemctl enable xrdp && sudo systemctl start xrdp
 sudo ufw allow 3389 && sudo ufw --force enable && sudo pacman -S --noconfirm wget fuse2 jre17-openjdk 
 cd $HOME/Downloads && wget https://host.darkbot.eu/uploads/Tanoshii/darkbot.zip && unzip darkbot.zip && rm -r $HOME/Downloads/darkbot.zip
