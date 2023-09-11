@@ -11,7 +11,7 @@ curl https://raw.githubusercontent.com/0dayYakuza/darkbot_linux/main/install_des
 **2. on VPS, then:**
 - download PuTTy or any similar app and connect to VPS;
 ```bash
-- Putty Link: https://www.putty.org/
+https://www.putty.org/
 ```
 - create a new user (don't use "root");
 - copy & paste this command in terminal;
