@@ -2,6 +2,7 @@
 
 ## If you want to install & run DarkBot
 **1. on your own PC, then:**
+- create a new user (don't use "root");
 - copy & paste this command in terminal
 ```bash
 curl https://raw.githubusercontent.com/0dayYakuza/darkbot_linux/main/install_desktop.sh | bash
@@ -9,6 +10,9 @@ curl https://raw.githubusercontent.com/0dayYakuza/darkbot_linux/main/install_des
 
 **2. on VPS, then:**
 - download PuTTy or any similar app and connect to VPS;
+```bash
+- Putty Link: https://www.putty.org/
+```
 - create a new user (don't use "root");
 - copy & paste this command in terminal;
 ```bash
@@ -53,7 +57,3 @@ Supported distributions:
 - Arch Linux
 - Manjaro OS
 - SteamOS
----
-### Thanks to Tanoshii#7629.
-### If you have any question, feel free to ask it in #linux-chat.
-### Ignore it if you don't know how to use it. 
