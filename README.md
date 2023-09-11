@@ -2,20 +2,24 @@
 
 ## If you want to install & run DarkBot
 **1. on your own PC, then:**
-- create a new user (don't use "root");
-- open terminal;
-- copy-paste this.command and click enter:
-> curl https://raw.githubusercontent.com/0dayYakuza/darkbot_linux/main/install_desktop.sh | bash
+- copy & paste this command in terminal
+```bash
+curl https://raw.githubusercontent.com/0dayYakuza/darkbot_linux/main/install_desktop.sh | bash
+```
 
 **2. on VPS, then:**
 - download PuTTy or any similar app and connect to VPS;
 - create a new user (don't use "root");
-- copy-paste this.command and click enter:
-> curl https://raw.githubusercontent.com/0dayYakuza/darkbot_linux/main/install_vps.sh | bash
+- copy & paste this command in terminal;
+```bash
+ curl https://raw.githubusercontent.com/0dayYakuza/darkbot_linux/main/install_vps.sh | bash
+ ```
 - When the installation is completed, close terminal and connect to VPS via Remote Desktop Connection (RDP).
 
 **3. To run darkbot, type command in terminal:**
-- cd Downloads/darkbot && java -jar DarkBot.jar
+```bash
+cd Downloads/darkbot && java -jar DarkBot.jar
+```
 ---
 # Troubleshooting
 1. If the bot asks for verification, open your browser manually, navigate to http://localhost:55230/ and authorize your discord account.
