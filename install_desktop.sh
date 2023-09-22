@@ -5,7 +5,7 @@ if [ -f /etc/os-release ]; then
     ID=$ID
 fi
 
-if [ $ID = ubuntu ]; then
+if [ $ID = ubuntu ] || [ $ID = pop ]; then
 sudo apt update -y && sudo apt upgrade -y && sudo apt install openjdk-17-jre openjdk-17-jdk -y
 sudo apt install libfuse2 -y
 cd $HOME/Downloads && wget https://host.darkbot.eu/uploads/Tanoshii/darkbot.zip && unzip darkbot.zip && rm -r $HOME/Downloads/darkbot.zip
