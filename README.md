@@ -52,6 +52,7 @@ Supported distributions:
 - Fedora 37
 - Rocky Linux 9
 - Ubuntu 22.04
+- Pop_OS!
 - Linux Mint
 - Debian 11
 - Arch Linux
