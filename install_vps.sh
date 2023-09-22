@@ -5,7 +5,7 @@ if [ -f /etc/os-release ]; then
     ID=$ID
 fi
 
-if [ $ID = ubuntu ]; then
+if [ $ID = ubuntu ] || [ $ID = pop ]; then
 sudo apt update -y && sudo apt upgrade -y
 sudo apt install ubuntu-desktop -y && sudo apt install xrdp -y && sudo apt install ufw -y
 ufw allow 3389 && systemctl restart xrdp && ufw reload
