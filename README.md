@@ -47,12 +47,12 @@ install_vps.sh is:
 - downloading darkbot.zip & unzipping all files & deleting archives.
 
 Supported distributions:
-- Ubuntu 22.04 / Ubuntu 23.10
-- Fedora 36 / Fedora 37
-- Alma Linux 8 / Alma Linux 9
-- CentOS Stream 8 / CentOS Stream 9
-- Rocky Linux 8 / Rocky Linux 9
-- Debian 10 / Debian 11
+- Ubuntu 20.04 - 23.10
+- Fedora 36 - 37
+- Alma Linux 8 - 9
+- CentOS Stream 8 - 9
+- Rocky Linux 8 -9
+- Debian 10 - 12
 - Pop_OS!
 - Linux Mint
 - Arch Linux
