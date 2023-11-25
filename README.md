@@ -58,3 +58,4 @@ Supported distributions:
 - Arch Linux
 - Manjaro OS
 - SteamOS
+- Elementary OS
