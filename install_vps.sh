@@ -46,4 +46,5 @@ cd $HOME/Downloads && wget https://host.darkbot.eu/uploads/Tanoshii/darkbot.zip 
 else
 echo "Operating system not identified"
 echo "Please contact devs in #linux-chat"
+echo "You can ping `0day` (moderator, contributor) for help"
 fi
