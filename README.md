@@ -2,7 +2,7 @@
 
 ## If you want to install & run DarkBot
 **1. on your own PC, then:**
-- create a new user (don't use "root");
+- create a new user (scroll down, there's a link to guide);
 - copy & paste this command in terminal
 ```bash
 curl https://raw.githubusercontent.com/0dayYakuza/darkbot_linux/main/install_desktop.sh | bash
@@ -13,7 +13,7 @@ curl https://raw.githubusercontent.com/0dayYakuza/darkbot_linux/main/install_des
 
     https://www.putty.org/
 
-- create a new user (don't use "root");
+- create a new user (scroll down, there's a link to guide);
 - copy & paste this command in terminal;
 ```bash
  curl https://raw.githubusercontent.com/0dayYakuza/darkbot_linux/main/install_vps.sh | bash
@@ -36,6 +36,7 @@ cd Downloads/darkbot && java -jar DarkBot.jar
 - sudo apt install fuse -y && sudo apt install libfuse2 -y
 6. cURL not found/installed
 - sudo apt install curl -y
+
 # FAQ
 install_desktop.sh is:
 - updating system & installing java 17;
@@ -59,3 +60,6 @@ Supported distributions:
 - Manjaro OS
 - SteamOS
 - Elementary OS
+
+How to create a new non-root user?
+- Please read guide here: https://averagelinuxuser.com/creating-new-user-linux/
